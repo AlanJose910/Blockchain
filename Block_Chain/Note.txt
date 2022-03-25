@@ -1,0 +1,59 @@
+ Block Chain
+ -------------
+
+ ## Hash Funtion ##
+
+ Hash funtion is an algorithm that converts a string of
+ arbitrary length into a string of bits
+
+Hashes are used in computer science for speed up certain algorithm
+Cryptograaphic hash is also called non-malleable.
+Means two very similar input should not produce similar output.
+
+hash funtion that we are going to use here is SHA-256
+
+## Code_Detailing ##
+
+##def __init__(self, mystring):
+        self.string = mystring
+The above code is a constructor generally used to initiating an object.
+The job is to assign value to the data members of the class when an object
+of the class is created. The __init__() method is called the constructor and
+always invoked when the object is created.
+
+Syntax:
+def __init__(self):
+    # body of the constructor
+
+Types of constructors:
+
+There are two types of constructors
+1) Default Constructor :Dosent accept any arguments
+2)Parameterized Constructor:Contains arguments
+
+(self) -> points to the object created by the class
+
+##def __repr__(self):
+        return self.string
+
+The constructor do not return any data
+
+##Error Example
+Traceback (most recent call last):
+TypeError: __init__() should return None, not 'str'
+
+
+__repr__() use to represent the class object as a string
+__repr__() is called by a built-in function called repr()
+
+##pass
+
+pass is a null statement
+the interpreter does not ignore pass statement, but nothing happen
+and the statement result into no operation. This statement is useful
+we don't want to write the implementation of a function but you want to
+implement in the future.
+
+
+
+
